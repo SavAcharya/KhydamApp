@@ -1,0 +1,12 @@
+1.Refactor - package name.
+2.Change app name - values/strings -<string name="app_name">name of the app</string>
+3.Change application id -
+
+    in.sayes.android.MMCC.common - AppConstants.java
+
+    public static final String APPLICATION_NO="new application id";
+
+4.Change splash screen - replace in all drawable folder - splash.jpg
+5.Change app icon - replace in all drawable folder - ic_launcher.png
+
+

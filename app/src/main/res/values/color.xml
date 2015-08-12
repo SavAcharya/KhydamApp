@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="splash_bg">#107273</color>
+    <color name="bg_color">#3BC1CA</color>
+    <color name="textbox_bg_color">#F8FAF9</color>
+
+    <color name="text_color">#333333</color>
+    <color name="text_color_semiLight">#737373</color>
+    <color name="text_color_light">#B3B3B3</color>
+    
+    
+    <color name="header_text_color">#ff0000</color>
+    <color name="text_border_color">#107472</color>
+    <color name="grey_text_color">#6C6D71</color>
+    <color name="semi_transparent">#77B3B3B3</color>
+
+    <!-- Home Color -->
+    
+    <color name="tab_bg_color">#f7f9f8</color>
+    <color name="tab_text_color">#565759</color>
+    <color name="tab_selected_text_color">#1E6964</color>
+    <color name="home_bg_color">#E8E9EB</color>
+    <color name="tab_border_color">#939496</color>
+
+    <!-- Base Color -->
+    <color name="common_header_color">#ffffff</color>
+    
+   
+    <color name="black">#000000</color>
+    <color name="red">#FF3030</color>
+    <color name="red_dark">#cd2626</color>
+    
+    <color name="green">#228b22</color>
+    <color name="green_dark">#008b00</color>
+    
+    <color name="button_dark">#696969</color>
+    <color name="button_light">#C2C2C2</color>
+
+    <color name="base_color_dark">#696969</color>
+    <color name="base_color_semi_light">#C2C2C2</color>
+    <color name="base_color_light">#E8E8E8</color>
+    
+    
+    
+    
+    
+</resources>

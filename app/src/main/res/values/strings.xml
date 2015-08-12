@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- APP config -->
+    <string name="app_name">Khadyam</string>
+    <string name="kitty">Kitty Cookery</string>
+    <string name="otp_msg">AM-NWAYSC</string>
+    <!--Home -->
+    <string name="home_title1">Welcome to Multi Cuisine KHADYAM Cooking Academy :</string>
+    <string name="home_description1"><p><strong>MS LEENA AGHI: </strong>She is certified as Entrepreneurs Bakers and Chocolatier from Institute of Baking and Cake Art, Bangalore. Also had done four months Certificate in Culinary Arts and Certificate in baking from Cook and Bake Academy, New Delhi.</p>
+" +
+            "\n" +
+            "<p>She is conducting cooking classes since Jan 2009. Till date, she has helped more than 700 students in learning cooking art. Her student portfolio is diversified from school going children, college going students, house wives and newly brides. Youngest student is boy of 11 years and eldest student is female of 65 years.</p>\n" +
+            "\n" +
+            "\n" +
+            "<p>Ms Leena Aghi has been assigned chief Chef by Videocon to designed 100 recipes for Videocon Kenstar’s  OXYFRYER. Her designed recipes are part of the OXYFYRER recipe book.</p>\n" +
+            "\n" +
+            "\n" +
+            "<p>She has worked in back kitchen for preparing recipes for OXYFRYER to be demonstrated for video shoot by Chef Cheenu- Host of Sunny side up show on channel Food Food.</p></string>
+
+<string name="home_title2">Your Instructor at Khadyam:</string>
+    <string name="home_description2"><p><strong>“KHADYAM”</strong> is a Sanskrit word meaning (Khadya-Padartha) – Serving delicious food.  KHADYAM Cooking Academy is a thought, a vision, an effort to help every segment of the society to make them able to prepare tasty, delicious, healthy and hygienic vegetarian food. It is dedicated to provide a platform to all those people who love cooking and want to enhance their culinary skills. At Khadyam, each cooking class includes live hands on chopping, step by step cooking with excellent cooking tips.  Now Khadyam has launched mobile application to help student to refer tips and recipes anytime just from their phone.</p>\n" +
+        "<p>Let’s come together and tickle the tastebuds......</p></string>
+    <string name="home_phone_no">+919212283404</string>
+
+
+
+<!-- Second Business -->
+<string name="secondBusines_title">Hello Kitty Cookery Show!</string>
+    <string name="secondBusines_description"><p><strong>Let’s plan a Kitty party at home as a different event.</strong> </p>\n" +
+                    "<p>Khadyam conducts in-home cookery show at your Kitty. Ms Leena will come in party and conduct live cooking classes for three selected dishes. Your kitty members will get to learn 3 dishes of their own choice. This will add more fun and masti to the kitty party.  Overall you will add zeal to Kitty party and also ensuring the healthy and hygienic food.  For further queries call us...\n" +
+                    "</p></string>
+
+
+    <!-- DashBoard -->
+    <string name="home">Home</string>
+    <string name="free_recipes">Free Recipes</string>
+    <string name="tips">Tips</string>
+    <string name="courses">Classes\n&amp;\nCourses</string>
+    <string name="my_courses">My Courses</string>
+    <string name="schedule">Schedule</string>
+    <string name="profile">Profile</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="catering">Catering</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_register">Register</string>
+    <string name="lbl_login">Login</string>
+    <string name="lbl_phone">Phone</string>
+    <string name="lbl_email">Email</string>
+    <string name="btn_lbl_done">DONE</string>
+    <string name="error">ERROR</string>
+    <string name="login">Login</string>
+    <string name="retry">Retry</string>
+    <string name="send">Send</string>
+    <string name="OTP"> Login with OTP </string>
+    <string name="sign_up">Signup</string>
+
+    <!-- Hint text -->
+    <string name="hint_name">*Name</string>
+    <string name="hint_phone_no">*Phone No</string>
+    <string name="hint_otp"> OTP </string>
+
+    <!-- Labels -->
+    <string name="lbl_categories">Categories</string>
+    <string name="lbl_enter_mobile_no">Please enter your regisrered mobile number.</string>
+    <string name="lbl_enter_otp_no">Please enter the OTP sent on your registered mobile no.</string>
+    <string name="lbl_schedule_starting_date">Start Date</string>
+    <string name="lbl_schedule_time_slot">Time Slot</string>
+    <string name="lbl_schedule_total_seats">Total Seats</string>
+    <string name="lbl_schedule_availble_seats">Available Seats</string>
+    <string name="lbl_schedule_weekly_dates">Weekly Dates</string>
+    <string name="lbl_schedule_timing_details">Timing Details</string>
+    <string name="lbl_courses">Classes &amp; Courses</string>
+    <string name="lbl_schedule_week_days_mon">Mon</string>
+    <string name="lbl_schedule_week_days_tue">Tue</string>
+    <string name="lbl_schedule_week_days_wed">Wed</string>
+    <string name="lbl_schedule_week_days_thu">Thu</string>
+    <string name="lbl_schedule_week_days_fri">Fri</string>
+    <string name="lbl_schedule_week_days_sat">Sat</string>
+    <string name="lbl_schedule_week_days_sun">Sun</string>
+
+
+    <!-- Async Task -->
+
+    <string name="async_task_error">Request Cancelled</string>
+    <string name="async_task_no_internet">No Internet Connection</string>
+    <string name="async_task_request">Request status code is </string>
+    <string name="loading">Loading...</string>
+    <string name="action_update">Update</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- Errors -->
+    <string name="error_mobile_no_not_exist">Please check the Mobile no you have entered.</string>
+    <string name="error_otp">OTP dosent match, please try again.</string>
+
+    <!-- Contact Us -->
+    <string name="contact_us_address">Space No.105, First Floor,Gaurav Tower, \n Plot No.22 ,Block-G, Community Centre \n Vikaspuri \n New Delhi-110018</string>
+    <string name="contact_us_phone_one">+91-9871450487</string>
+    <string name="contact_us_phone_tow">011-47741176</string>
+    <string name="contact_us_email">contacts@nwaystech.com</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_catagory_list">CatagoryListActivity</string>
+    <string name="title_activity_recipe_details">RecipeDetailsActivity</string>
+    <string name="title_activity_course_details">CourseDetailsActivity</string>
+    <string name="title_activity_otp">OTPActivity</string>
+
+    <!-- E Chef -->
+
+    <string name="echef">eChef </string>
+    <string name="echef_copyRight">eChef - Designed and Developed by nWays Technologies </string>
+    <string name="echef_software">eChef is a business solution for cookery classes which helps to organize recipes, courses and students. It is developed and designed by nWays Technologies. For further details contact us at: </string>
+    <string name="nways">http://www.nwaystech.com/ </string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg"
+    android:padding="@dimen/padding_mid">
+    
+    <TextView
+        android:id="@+id/txt_recipeDetails_recipeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+         android:textColor="@color/header_text_color"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@drawable/blackline" />
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="@dimen/icon_size_larg"
+        android:layout_height="@dimen/icon_size_larg"
+        android:layout_marginLeft="@dimen/padding_mid"
+        android:layout_marginTop="@dimen/padding_mid"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView" />
+
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/padding_mid">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/echef_copyRight"
+                android:textColor="@color/text_color"
+                android:gravity="center"
+                android:drawableTop="@drawable/blackline"
+                android:drawablePadding="@dimen/Padding_verySmall"
+                android:layout_margin="@dimen/padding_samll"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/txt_echefCopyRight" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/txt_echefCopyRight"
+            >
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+                android:background="@drawable/rounded_button_holo_dark"
+                android:paddingBottom="@dimen/padding_samll">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_gravity="center_horizontal"
+                    android:text="About cooking classes"
+                    android:textColor="@color/text_color"
+                    android:drawablePadding="@dimen/padding_samll"
+                    android:drawableBottom="@drawable/blackline"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_gravity="center_horizontal"
+                android:text="The main aim of KHADYAM  is to promote Vegetarian Cooking and help vegetarians to make their own identity in the world of Culinary Art. Khadyam provides hands on Cooking Classes. Each cooking class includes live demonstration of recipes step by step, printed recipes, take home samples and lot of cooking tips. Students chop veggies and make dishes with their own hands under the instructions of cooking Instructor."
+                android:textColor="@color/text_color"
+                android:paddingBottom="@dimen/padding_samll"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_gravity="center_horizontal"
+                    android:text="About the Instructor"
+                    android:textColor="@color/text_color"
+                    android:drawablePadding="@dimen/padding_samll"
+                    android:drawableBottom="@drawable/blackline"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_gravity="center_horizontal"
+                android:text="Ms Leena Aghi :She is certified as Entrepreneurs Bakers and Chocolatier from Institute of Baking and Cake Art, Bangalore. She has done four months Certificate in Culinary Arts and Certificate in baking from Cook and Bake Academy, New Delhi. She is conducting cooking classes since 13 Jan 2009. Apart from conducting cookery classes, she manufactured and marketed Chocolates professionally from Jan 2009 to Feb 2011. She only takes vegetarian classes. Till now she has given cooking classes to more than 700 students who includes school going children including boys and girls, college going girls and boys, house wives, newly wedded brides, servants, males. Youngest student is a boy of 11 years and eldest student is female of 65 years. Many of her students has started their own chocolate and cakes businesses after joining her professional courses. Many brides have learned bridal packages at Khadyam and are so happy in their wedding lives as they get compliments from their in laws for making tasty and delicious food. Many mothers are now not worried about their fussy kids as they learned healthy and tasty foods which now they can make at home."
+                android:textColor="@color/text_color" />
+
+
+
+        </LinearLayout>
+
+        </ScrollView>
+        </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>

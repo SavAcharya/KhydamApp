@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_chef" >
+
+    <include
+        android:id="@+id/header_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/top_header" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="265dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_mid" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_dash_home"
+                android:layout_width="@dimen/btn_dashboard"
+                android:layout_height="@dimen/btn_dashboard"
+                android:layout_margin="@dimen/Padding_verySmall"
+                android:background="@drawable/btn_dashboard"
+                android:gravity="center"
+                android:text="@string/home"
+
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/text_color" />
+
+            <Button
+                android:id="@+id/btn_dash_free_recipes"
+                android:layout_width="@dimen/btn_dashboard"
+                android:layout_height="@dimen/btn_dashboard"
+                android:layout_margin="@dimen/Padding_verySmall"
+                android:background="@drawable/btn_dashboard"
+                android:gravity="center"
+                android:text="@string/free_recipes"
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/text_color" />
+
+            <Button
+                android:id="@+id/btn_dash_tips"
+                android:layout_width="@dimen/btn_dashboard"
+                android:layout_height="@dimen/btn_dashboard"
+                android:layout_margin="@dimen/Padding_verySmall"
+                android:background="@drawable/btn_dashboard"
+                android:gravity="center"
+                android:text="@string/tips"
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/text_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_dash_courses"
+                android:layout_width="@dimen/btn_dashboard"
+                android:layout_height="@dimen/btn_dashboard"
+                android:layout_margin="@dimen/Padding_verySmall"
+                android:background="@drawable/btn_dashboard"
+                android:gravity="center"
+                android:text="@string/courses"
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/text_color" />
+
+            <Button
+                android:id="@+id/btn_dash_my_courses"
+                android:layout_width="@dimen/btn_dashboard"
+                android:layout_height="@dimen/btn_dashboard"
+                android:layout_margin="@dimen/Padding_verySmall"
+                android:background="@drawable/btn_dashboard"
+                android:gravity="center"
+                android:text="@string/my_courses"
+                android:textSize="@dimen/text_size_large"
+
+                android:textColor="@color/text_color" />
+
+            <Button
+                android:id="@+id/btn_dash_schidule"
+                android:layout_width="@dimen/btn_dashboard"
+                android:layout_height="@dimen/btn_dashboard"
+                android:layout_margin="@dimen/Padding_verySmall"
+                android:background="@drawable/btn_dashboard"
+                android:gravity="center"
+                android:text="@string/schedule"
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/text_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_dash_contact_us"
+                android:layout_width="@dimen/btn_dashboard"
+                android:layout_height="@dimen/btn_dashboard"
+                android:layout_margin="@dimen/Padding_verySmall"
+                android:background="@drawable/btn_dashboard"
+                android:gravity="center"
+                android:text="@string/echef"
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/text_color" />
+
+            <Button
+                android:id="@+id/btn_dash_catering"
+                android:layout_width="@dimen/btn_dashboard"
+                android:layout_height="@dimen/btn_dashboard"
+                android:layout_margin="@dimen/Padding_verySmall"
+                android:background="@drawable/btn_dashboard"
+                android:gravity="center"
+                android:text="@string/kitty"
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/text_color" />
+
+            <Button
+                android:id="@+id/btn_dash_profile"
+                android:layout_width="@dimen/btn_dashboard"
+                android:layout_height="@dimen/btn_dashboard"
+                android:layout_margin="@dimen/Padding_verySmall"
+                android:background="@drawable/btn_dashboard"
+                android:gravity="center"
+                android:text="Contact Us"
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/text_color" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="@dimen/icon_size_larg"
+        android:layout_height="@dimen/icon_size_larg"
+        android:layout_alignParentLeft="true"
+android:visibility="invisible"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_marginLeft="@dimen/padding_veryLarge"
+        android:layout_marginTop="@dimen/padding_veryLarge"
+        />
+<TextView 
+    android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:text="@string/echef_copyRight"
+    android:textColor="@color/text_color"
+    android:gravity="center"
+    
+           android:layout_margin="@dimen/padding_samll"
+           android:layout_alignParentBottom="true"
+    />
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="@drawable/bg" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    
+    android:padding="@dimen/padding_mid"
+    
+    >
+    <TextView
+        android:id="@+id/txt_recipeDetails_recipeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/echef"
+         android:textColor="@color/header_text_color"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@drawable/blackline" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/padding_mid"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:src="@drawable/echef_logo" 
+            />
+<TextView 
+    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    android:text="@string/echef_software"
+    android:gravity="center"
+    android:textSize="@dimen/text_size_large"
+            android:textColor="@color/text_color"
+    />
+<TextView 
+    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    android:text="@string/nways"
+    android:textSize="@dimen/text_size_large"
+    android:textColor="@color/text_color"
+    android:gravity="center"
+           
+    />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cnt_hm" 
+            android:background="@drawable/rounderd_button_old"
+             android:layout_marginTop="@dimen/padding_large"/>
+            />
+
+        <TextView
+            android:id="@+id/txt_recipeDetails_recipDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_large"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="@dimen/padding_mid"
+            android:text="@string/contact_us_address"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cnt_ph" 
+            android:background="@drawable/rounderd_button_old"
+            android:layout_marginTop="@dimen/padding_large"/>
+
+        <TextView
+            android:id="@+id/txt_phone1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us_phone_one"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="@dimen/padding_samll"
+            android:clickable="true"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/txt_phone2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us_phone_tow"
+            android:layout_marginTop="@dimen/padding_samll"
+            android:clickable="true"
+            android:textColor="@color/text_color"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_marginTop="@dimen/padding_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cnt_mail" 
+            android:background="@drawable/rounderd_button_old"/>
+        <TextView
+            android:id="@+id/txt_email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us_email"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="@dimen/padding_samll"
+            android:clickable="true"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

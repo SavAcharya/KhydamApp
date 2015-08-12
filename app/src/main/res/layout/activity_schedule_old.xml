@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="@dimen/padding_mid"
+        android:gravity="bottom"
+        
+        >
+
+        <ImageView
+            android:id="@+id/img_schedule_courseImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/khadyam_logo"
+            />
+
+        <TextView
+            android:id="@+id/txt_schedule_courseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/text_color"
+            android:layout_marginLeft="@dimen/padding_mid"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_schedule_courseDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_schedule_timing_details"
+        android:layout_marginLeft="@dimen/padding_mid"
+        android:textColor="@color/text_color_semiLight"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <View
+        android:id="@+id/view1"
+        android:background="@color/red_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp" 
+        android:layout_margin="@dimen/padding_samll"/>
+    
+    <ListView 
+        android:id="@+id/list_schedule_time_slot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></ListView>
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<ScrollView 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="in.sayes.android.khadyam.activity.LoginActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="@dimen/padding_samll"
+    >
+    
+    
+
+
+<RelativeLayout 
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    >
+    
+    
+     <include android:id="@+id/header_login"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        layout="@layout/top_header" />
+    <ImageView android:id="@+id/img_icon"
+        android:layout_height="@dimen/icon_size_larg"
+        android:layout_width="@dimen/icon_size_larg"
+        android:src="@drawable/khadyam_logo"
+        android:layout_marginLeft="@dimen/padding_large"
+       android:visibility="gone"
+        android:layout_marginTop="@dimen/padding_large"
+         android:layout_below="@+id/header_login"
+        />
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+
+        android:background="@drawable/blackline"
+        android:layout_below="@+id/header_login"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img_icon"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/txt_recipeDetails_recipeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_large"
+            android:text="@string/login"
+             android:textColor="@color/header_text_color"
+        android:textStyle="bold"
+        android:typeface="serif"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+             />
+
+        <TextView
+            android:id="@+id/txt_login_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:paddingBottom="@dimen/padding_large"
+            android:text="@string/lbl_enter_mobile_no"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_size_xlarge" />
+
+        <EditText
+            android:id="@+id/edt_login_phoneNo"
+            android:layout_width="@dimen/textBox_width"
+            android:layout_height="@dimen/textBox_hight"
+            android:background="@drawable/rounded_button_holo_dark"
+            android:gravity="center"
+            android:textColorHint="@color/text_color_light"
+            android:textColor="@color/text_color"
+            android:hint="@string/hint_phone_no"
+            android:inputType="phone"
+            android:maxLength="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="@dimen/textBox_width"
+            android:layout_height="@dimen/textBox_hight"
+            android:layout_margin="@dimen/padding_large"
+            android:background="@drawable/rounderd_button_old"
+            android:text="@string/send"
+            android:textColor="@color/black" />
+
+        <RelativeLayout
+            android:id="@+id/layour_loging_goToSignup"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="@dimen/padding_veryLarge" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/text_color_semiLight"
+                android:text="Don&apos;t have an account! SignUp with us..."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic" />
+
+           
+
+            <Button
+                android:id="@+id/btn_signup_send"
+                android:layout_width="@dimen/btn_larg"
+                android:layout_height="@dimen/btn_hight"
+                
+                android:text="@string/sign_up"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/padding_samll"
+                android:gravity="center"
+
+                android:background="@drawable/rounderd_button_old" />
+
+            
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>

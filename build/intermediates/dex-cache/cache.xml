@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-b7297025bcd61c038245323009a74c65f7c9518b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1"/>
+    <item
+        dex="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/pre-dexed/debug/classes-9628be15a53b9a826053b62cf995758a803e78e4.jar"
+        jar="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0"/>
+    <item
+        dex="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/pre-dexed/debug/classes-9bd8a3794641bab4ccafb6dc43a91212dbee2f6d.jar"
+        jar="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f"/>
+    <item
+        dex="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-c5b0e27e2a2ab0ae97c1f7c0743740869a3ff12d.jar"
+        jar="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79"/>
+    <item
+        dex="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/pre-dexed/debug/annotations-12.0-421a6d7ee11ab960d625fb66a36007f3a4aca3d6.jar"
+        jar="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/libs/annotations-12.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539"/>
+    <item
+        dex="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/pre-dexed/debug/AndroidPGsdk-9f542b8ec36eac52ea32c565c4f548c753ba80b7.jar"
+        jar="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/libs/AndroidPGsdk.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8c76020ed084b896e1cff7b131a0fe476a97de9b"/>
+    <item
+        dex="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.6.3-with-src-25e154b8836a2313a61f5d82ef6ac66d0eea0f59.jar"
+        jar="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/libs/universal-image-loader-1.6.3-with-src.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="77e63d5c554e6a4e6b2b2f082c5cd79a89e67cfc"/>
+    <item
+        dex="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/pre-dexed/debug/httpmime-4.3.2-6092cecee20f1e042112605f452d78d5d810fc91.jar"
+        jar="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef"/>
+    <item
+        dex="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-22e37dbcbe809da8c818f121c3c2e4aca5a51303.jar"
+        jar="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/libs/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387"/>
+
+</pre-dex-items>

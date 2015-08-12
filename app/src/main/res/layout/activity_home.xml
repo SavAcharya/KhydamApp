@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:padding="@dimen/padding_mid">
+
+    <TextView
+        android:id="@+id/txt_recipeDetails_recipeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:textColor="@color/header_text_color"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@drawable/blackline" />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/padding_mid">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/echef_copyRight"
+            android:textColor="@color/text_color"
+            android:gravity="center"
+            android:drawableTop="@drawable/blackline"
+            android:drawablePadding="@dimen/Padding_verySmall"
+            android:layout_margin="@dimen/padding_samll"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/txt_echefCopyRight" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/txt_echefCopyRight"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_button_holo_dark"
+                android:paddingBottom="@dimen/padding_samll">
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/home_title1"
+                    android:textColor="@color/text_color"
+                    android:drawablePadding="@dimen/padding_samll"
+                    android:drawableBottom="@drawable/blackline"/>
+                <TextView android:id="@+id/txt_home_classDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_gravity="center_horizontal"
+
+
+                    android:textColor="@color/text_color"
+                    android:paddingBottom="@dimen/padding_samll"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+android:padding="@dimen/padding_samll"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View Gallery: "
+                        android:gravity="bottom"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color"
+                        />
+                    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_gallery"
+
+    android:id="@+id/btn_home_gallery" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Call us: "
+                        android:paddingLeft="@dimen/padding_large"
+                        android:gravity="bottom"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_call"
+                        android:id="@+id/btn_home_call" />
+
+                    </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/home_title2"
+                    android:textColor="@color/text_color"
+                    android:drawablePadding="@dimen/padding_samll"
+                    android:drawableBottom="@drawable/blackline"
+                     />
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/img_home_Instractor"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@drawable/rounded_button_holo_dark"
+                        android:src="@drawable/khadyam_chef"
+                        android:layout_margin="@dimen/padding_samll"
+
+                        />
+
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_home_InstractorDesc"
+                        android:layout_toRightOf="@+id/img_home_Instractor"
+                        android:layout_alignParentTop="true"
+
+                        android:inputType="textMultiLine"
+                        android:scrollbars="vertical"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center_horizontal"
+                         android:textColor="@color/text_color" />
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+
+</LinearLayout>

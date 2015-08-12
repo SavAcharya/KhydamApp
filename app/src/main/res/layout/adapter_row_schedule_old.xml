@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_mid" 
+    android:background="@drawable/rounded_button_holo_dark"
+    android:layout_margin="@dimen/padding_mid"
+    android:clickable="true"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:text="@string/lbl_schedule_starting_date"
+            android:textSize="@dimen/text_size_mid" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:text="@string/lbl_schedule_time_slot"
+            android:textSize="@dimen/text_size_mid" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:text="@string/lbl_schedule_total_seats"
+            android:textSize="@dimen/text_size_mid" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:text="@string/lbl_schedule_availble_seats"
+            android:textSize="@dimen/text_size_mid" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <TextView
+            android:id="@+id/txt_schedule_starting_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            
+            android:textColor="@color/text_color_semiLight"
+            android:text="21 April 2015"
+            android:textSize="@dimen/text_size_mid" />
+
+        <TextView
+            android:id="@+id/txt_schedule_time_slot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/text_color_semiLight"
+            android:text="4.00 - 5.00 PM"
+            android:textSize="@dimen/text_size_mid" />
+
+        <TextView
+            android:id="@+id/txt_schedule_total_seats"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/text_color_semiLight"
+            android:text="10"
+            android:textSize="@dimen/text_size_mid" />
+
+        <TextView
+            android:id="@+id/txt_schedule_availble_seats"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/text_color_semiLight"
+            android:textSize="@dimen/text_size_mid" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_recipeDetails_recipeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:textColor="@color/text_color"
+        android:paddingTop="@dimen/padding_large"
+        android:text="@string/lbl_schedule_weekly_dates"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="bottom"
+        android:weightSum="7"
+        android:layout_marginTop="@dimen/padding_samll"
+        >
+        
+        <ImageView 
+            android:id="@+id/img_sunday"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:padding="@dimen/Padding_verySmall"
+           android:src="@color/green"/>
+        <ImageView android:id="@+id/img_monday"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:padding="@dimen/Padding_verySmall"
+           android:src="@color/red"/>
+        <ImageView android:id="@+id/img_tuesday"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:padding="@dimen/Padding_verySmall"
+           android:src="@color/green"/>
+        <ImageView android:id="@+id/img_wednessday"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:padding="@dimen/Padding_verySmall"
+           android:src="@color/green"/>
+        <ImageView android:id="@+id/img_thrusday"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:padding="@dimen/Padding_verySmall"
+           android:src="@color/green"/>
+        <ImageView android:id="@+id/img_friday"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:padding="@dimen/Padding_verySmall"
+           android:src="@color/red"/>
+        <ImageView android:id="@+id/img_saturday"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:padding="@dimen/Padding_verySmall"
+           android:src="@color/red"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:weightSum="7"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/text_color_semiLight"
+            android:text="@string/lbl_schedule_week_days_mon"
+            android:textSize="@dimen/text_size_small" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/text_color_semiLight"
+            android:text="@string/lbl_schedule_week_days_tue"
+            android:textSize="@dimen/text_size_small" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/text_color_semiLight"
+            android:text="@string/lbl_schedule_week_days_wed"
+            android:textSize="@dimen/text_size_small" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/text_color_semiLight"
+            android:text="@string/lbl_schedule_week_days_thu"
+            android:textSize="@dimen/text_size_small" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/text_color_semiLight"
+            android:text="@string/lbl_schedule_week_days_fri"
+            android:textSize="@dimen/text_size_small" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/text_color_semiLight"
+            android:text="@string/lbl_schedule_week_days_sat"
+            android:textSize="@dimen/text_size_small" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/text_color_semiLight"
+            android:text="@string/lbl_schedule_week_days_sun"
+            android:textSize="@dimen/text_size_small" />
+        
+    </LinearLayout>
+
+</LinearLayout>
