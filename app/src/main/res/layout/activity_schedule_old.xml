@@ -17,7 +17,7 @@
             android:id="@+id/img_schedule_courseImage"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/khadyam_logo"
+            android:src="@drawable/chef_logo"
             />
 
         <TextView

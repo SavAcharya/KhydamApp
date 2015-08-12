@@ -83,7 +83,7 @@ public class RecipeDetailsActivity extends BaseActivity implements OnItemClickLi
 		dialog=new ProgressDialog(context);
 		setContentView(R.layout.activity_recipe_details);
 		recipeId=getIntent().getExtras().getString(AppConstants.RECIPE_ID);
-		options = new DisplayImageOptions.Builder().showStubImage(R.drawable.khadyam_logo).showImageForEmptyUri(R.drawable.khadyam_logo).cacheInMemory().cacheOnDisc().build();
+		options = new DisplayImageOptions.Builder().showStubImage(R.drawable.chef_logo).showImageForEmptyUri(R.drawable.chef_logo).cacheInMemory().cacheOnDisc().build();
 	initViews();
 	loadRecipeDetails(recipeId);
 	}
@@ -275,7 +275,7 @@ showNoDataMessage();
 			imgDemo.setLayoutParams(new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT,LayoutParams.MATCH_PARENT));     
 			imgDemo.setScaleType(ScaleType.FIT_XY);
 			if (images.isEmpty()) {
-				imgDemo.setImageDrawable(getResources().getDrawable(R.drawable.khadyam_logo));
+				imgDemo.setImageDrawable(getResources().getDrawable(R.drawable.chef_logo));
 			}else
 			{
 				//imgDemo.setImageResource(defaultRecipeImages[pos]);

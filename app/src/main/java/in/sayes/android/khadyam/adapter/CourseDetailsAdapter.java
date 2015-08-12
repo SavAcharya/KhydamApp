@@ -36,7 +36,7 @@ public class CourseDetailsAdapter extends BaseExpandableListAdapter {
         this.context = context;
         this.days = days;
         this.isMyCourse=courseType;
-        options = new DisplayImageOptions.Builder().showStubImage(R.drawable.khadyam_logo).showImageForEmptyUri(R.drawable.khadyam_logo).cacheInMemory().cacheOnDisc().build();
+        options = new DisplayImageOptions.Builder().showStubImage(R.drawable.chef_logo).showImageForEmptyUri(R.drawable.chef_logo).cacheInMemory().cacheOnDisc().build();
     }
 
     @Override

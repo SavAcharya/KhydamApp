@@ -38,8 +38,8 @@ public class ScheduleListAdapter_old extends BaseAdapter {
 				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
 		options = new DisplayImageOptions.Builder()
-				.showStubImage(R.drawable.khadyam_logo)
-				.showImageForEmptyUri(R.drawable.khadyam_logo).cacheInMemory()
+				.showStubImage(R.drawable.chef_logo)
+				.showImageForEmptyUri(R.drawable.chef_logo).cacheInMemory()
 				.cacheOnDisc().build();
 
 	}

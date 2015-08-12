@@ -127,7 +127,7 @@
                 android:layout_margin="@dimen/Padding_verySmall"
                 android:background="@drawable/btn_dashboard"
                 android:gravity="center"
-                android:text="@string/kitty"
+                android:text="@string/secondBusinessName"
                 android:textSize="@dimen/text_size_large"
                 android:textColor="@color/text_color" />
 

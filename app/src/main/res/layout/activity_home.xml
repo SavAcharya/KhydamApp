@@ -134,7 +134,7 @@ android:padding="@dimen/padding_samll"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentTop="true"
                         android:background="@drawable/rounded_button_holo_dark"
-                        android:src="@drawable/khadyam_chef"
+                        android:src="@drawable/chef_photo"
                         android:layout_margin="@dimen/padding_samll"
 
                         />

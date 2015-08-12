@@ -18,7 +18,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
-import com.squareup.picasso.Picasso;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -32,7 +31,7 @@ public class GalleryActivity extends BaseActivity {
     int height;
     int width;
     Activity context;
-    int[] defaultRecipeImages = {R.drawable.khadyam_picture1, R.drawable.khadyam_picture2, R.drawable.khadyam_picture3, R.drawable.khadyam_picture4};
+    int[] defaultRecipeImages = {R.drawable.chef_picture1, R.drawable.chef_picture2, R.drawable.chef_picture3, R.drawable.chef_picture4};
     private int currentPosition = 0;
     private DisplayImageOptions options;
     @Override
@@ -41,7 +40,7 @@ public class GalleryActivity extends BaseActivity {
         context=(Activity)GalleryActivity.this;
         Utils.fullScreenActivity(context);
         setContentView(R.layout.activity_gallery);
-        options = new DisplayImageOptions.Builder().showStubImage(R.drawable.ic_launcher).showImageForEmptyUri(R.drawable.khadyam_logo).cacheInMemory().cacheOnDisc().build();
+        options = new DisplayImageOptions.Builder().showStubImage(R.drawable.ic_launcher).showImageForEmptyUri(R.drawable.chef_logo).cacheInMemory().cacheOnDisc().build();
         DisplayMetrics metrics = context.getResources().getDisplayMetrics();
         width = metrics.widthPixels;
         height = metrics.heightPixels;

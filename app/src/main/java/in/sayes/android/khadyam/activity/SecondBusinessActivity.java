@@ -30,7 +30,7 @@ public class SecondBusinessActivity extends BaseActivity{
         {
             super.onCreate(savedInstanceState);
 
-            setContentView(R.layout.activity_secondBusiness);
+            setContentView(R.layout.activity_second_business);
             TextView mTextDescription= (TextView) findViewById(R.id.txt_CateringService);
 
             Spanned sp = Html.fromHtml(getResources().getString(R.string.secondBusines_description));

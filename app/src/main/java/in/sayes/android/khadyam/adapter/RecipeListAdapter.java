@@ -44,7 +44,7 @@ TextView mRecipeDesc;
 		this.imageLoader = _imageLoader;
 		this.mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		
-		options = new DisplayImageOptions.Builder().showStubImage(R.drawable.khadyam_logo).showImageForEmptyUri(R.drawable.khadyam_logo).cacheInMemory().cacheOnDisc().build();
+		options = new DisplayImageOptions.Builder().showStubImage(R.drawable.chef_logo).showImageForEmptyUri(R.drawable.chef_logo).cacheInMemory().cacheOnDisc().build();
 	
 	
 	}

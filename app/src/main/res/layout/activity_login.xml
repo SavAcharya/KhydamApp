@@ -27,7 +27,7 @@
     <ImageView android:id="@+id/img_icon"
         android:layout_height="@dimen/icon_size_larg"
         android:layout_width="@dimen/icon_size_larg"
-        android:src="@drawable/khadyam_logo"
+        android:src="@drawable/chef_logo"
         android:layout_marginLeft="@dimen/padding_large"
        android:visibility="gone"
         android:layout_marginTop="@dimen/padding_large"

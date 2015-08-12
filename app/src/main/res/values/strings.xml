@@ -3,8 +3,9 @@
 
     <!-- APP config -->
     <string name="app_name">Khadyam</string>
-    <string name="kitty">Kitty Cookery</string>
+    <string name="secondBusinessName">Kitty Cookery</string>
     <string name="otp_msg">AM-NWAYSC</string>
+
     <!--Home -->
     <string name="home_title1">Welcome to Multi Cuisine KHADYAM Cooking Academy :</string>
     <string name="home_description1"><p><strong>MS LEENA AGHI: </strong>She is certified as Entrepreneurs Bakers and Chocolatier from Institute of Baking and Cake Art, Bangalore. Also had done four months Certificate in Culinary Arts and Certificate in baking from Cook and Bake Academy, New Delhi.</p>
