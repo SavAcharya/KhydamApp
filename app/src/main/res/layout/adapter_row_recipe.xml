@@ -7,7 +7,7 @@
     android:orientation="vertical"
 
     android:paddingLeft="@dimen/padding_mid"
-    android:paddingRight="@dimen/padding_mid"
+
     android:paddingTop="@dimen/padding_mid"
     >
 
@@ -19,6 +19,9 @@
         android:layout_marginRight="@dimen/padding_mid" 
         android:layout_alignParentLeft="true"
         android:background="@drawable/rounded_button_holo_dark"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
         />
 
     <TextView
@@ -26,9 +29,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/img_recipeImg"
+
+        android:layout_toLeftOf="@+id/btn_selectRecipe"
         android:textColor="@color/text_color"
         android:text=""
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
 
     <TextView
         android:id="@+id/txt_recipeDesc"
@@ -37,9 +46,23 @@
         android:layout_height="wrap_content"
          android:textColor="@color/text_color_semiLight"
         android:layout_toRightOf="@+id/img_recipeImg"
-        
+        android:layout_toLeftOf="@+id/btn_selectRecipe"
         android:layout_below="@+id/txt_recipeName"
       android:layout_marginTop="@dimen/Padding_verySmall"
-        android:text="" />
+        android:text=""
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_send"
+        android:id="@+id/btn_selectRecipe"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

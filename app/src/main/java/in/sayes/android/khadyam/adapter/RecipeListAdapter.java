@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -25,7 +26,7 @@ public class RecipeListAdapter extends BaseAdapter{
 ImageView mRecipeImage;
 TextView mRecipeName;
 TextView mRecipeDesc;
-		
+		Button mSelectRecipe;
 		
 	}
 
@@ -81,7 +82,7 @@ TextView mRecipeDesc;
 			holder.mRecipeImage=(ImageView) convertView.findViewById(R.id.img_recipeImg);
 			holder.mRecipeName=(TextView) convertView.findViewById(R.id.txt_recipeName);
 			holder.mRecipeDesc=(TextView) convertView.findViewById(R.id.txt_recipeDesc);
-			
+            holder.mSelectRecipe= (Button) convertView.findViewById(R.id.btn_selectRecipe);
 			convertView.setTag(holder);
 	}else {
 		holder = (ViewHolder) convertView.getTag();

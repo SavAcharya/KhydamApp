@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -31,6 +32,7 @@ public class CourseDetailsAdapter extends BaseExpandableListAdapter {
     private boolean isMyCourse;
     private ImageLoader imageLoader= ImageLoader.getInstance();
     private DisplayImageOptions options;
+private Button mSelectRecipe;
 
     public CourseDetailsAdapter(Context context, ArrayList<CoursesBean.CourseDetails> days,boolean courseType) {
         this.context = context;
@@ -52,9 +54,10 @@ public class CourseDetailsAdapter extends BaseExpandableListAdapter {
 
     @Nullable
     @Override
-    public View getChildView(int groupPosition, int childPosition,
+    public View getChildView(final int groupPosition, final int childPosition,
             boolean isLastChild, @Nullable View convertView, ViewGroup parent) {
-
+final int group=groupPosition;
+        int child=childPosition;
         @NotNull RecipeBean recipes = (RecipeBean) getChild(groupPosition, childPosition);
         if (convertView == null) {
             @NotNull LayoutInflater infalInflater = (LayoutInflater) context
@@ -66,7 +69,20 @@ public class CourseDetailsAdapter extends BaseExpandableListAdapter {
         @NotNull TextView txtRecipeDescription=(TextView) convertView.findViewById(R.id.txt_recipeDesc);
         txtRecipeName.setText(recipes.getRecipeName().toString());
         txtRecipeDescription.setText(recipes.getRecipeDetails());
+        mSelectRecipe= (Button) convertView.findViewById(R.id.btn_selectRecipe);
+        mSelectRecipe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(isMyCourse){
 
+                    @NotNull RecipeBean recipes = (RecipeBean) getChild(group, childPosition);
+                    @NotNull Intent i=new Intent(context, RecipeDetailsActivity.class);
+
+                    i.putExtra(AppConstants.RECIPE_ID, recipes.getRecipeId());
+                    context.startActivity(i);
+                }
+            }
+        });
         imageLoader.displayImage(recipes.getmImageThumb(),imgRecipeImage,options);
 
         return convertView;
@@ -106,6 +122,9 @@ public class CourseDetailsAdapter extends BaseExpandableListAdapter {
         @NotNull TextView tv = (TextView) convertView.findViewById(R.id.txt_courseDay);
         tv.setText(days.getTitle());
         return convertView;
+
+
+
     }
 
     @Override
@@ -116,14 +135,7 @@ public class CourseDetailsAdapter extends BaseExpandableListAdapter {
     @Override
     public boolean isChildSelectable(int groupPosition, int childPosition) {
 
-        if(isMyCourse){
 
-            @NotNull RecipeBean recipes = (RecipeBean) getChild(groupPosition, childPosition);
-            @NotNull Intent i=new Intent(context, RecipeDetailsActivity.class);
-
-            i.putExtra(AppConstants.RECIPE_ID, recipes.getRecipeId());
-            context.startActivity(i);
-        }
 
 
         return true;

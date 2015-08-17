@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.TextView;
 
 import org.jetbrains.annotations.Nullable;
@@ -25,6 +26,7 @@ public class ViewHolder {
 		
 		TextView mStepsTitle;
 		TextView mStepsDescription;
+
 	}
 	
 
@@ -69,7 +71,8 @@ public RecipeStepsAdapter(Activity context, ArrayList<RecipeBean.RecipeSteps> st
 					holder = new ViewHolder();
 					holder.mStepsTitle=(TextView) convertView.findViewById(R.id.txt_recipe_adapter_row_stepTitle);
 					holder.mStepsDescription=(TextView) convertView.findViewById(R.id.txt_recipe_adapter_row_stepDetails);
-					convertView.setTag(holder);
+
+            convertView.setTag(holder);
 			}else {
 				holder = (ViewHolder) convertView.getTag();
 			}

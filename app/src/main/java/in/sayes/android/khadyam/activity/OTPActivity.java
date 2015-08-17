@@ -35,6 +35,7 @@ public class OTPActivity extends BaseActivity implements OnClickListener{
 	TextView mErrorText;
 	EditText mOTPEditText;
 	private ProgressDialog dialog;
+    private BroadcastReceiver mOTPBroadcastReceiver;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -48,15 +49,16 @@ public class OTPActivity extends BaseActivity implements OnClickListener{
 
 
 		initViews();
-		
+
+      mOTPBroadcastReceiver = new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+                OTPActivity.this.receivedBroadcast(intent);
+            }
+        };
 	}
 
-    private BroadcastReceiver mOTPBroadcastReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            OTPActivity.this.receivedBroadcast(intent);
-        }
-    };
+
 
     private void receivedBroadcast(Intent intent) {
 
