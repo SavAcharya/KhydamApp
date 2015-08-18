@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
@@ -26,8 +27,8 @@ public class RecipeListAdapter extends BaseAdapter{
 ImageView mRecipeImage;
 TextView mRecipeName;
 TextView mRecipeDesc;
-		Button mSelectRecipe;
-		
+
+        private RelativeLayout mSelectRecipe;
 	}
 
 	private Activity mContext;
@@ -82,7 +83,7 @@ TextView mRecipeDesc;
 			holder.mRecipeImage=(ImageView) convertView.findViewById(R.id.img_recipeImg);
 			holder.mRecipeName=(TextView) convertView.findViewById(R.id.txt_recipeName);
 			holder.mRecipeDesc=(TextView) convertView.findViewById(R.id.txt_recipeDesc);
-            holder.mSelectRecipe= (Button) convertView.findViewById(R.id.btn_selectRecipe);
+            holder.mSelectRecipe= (RelativeLayout) convertView.findViewById(R.id.layout_recipeParent);
 			convertView.setTag(holder);
 	}else {
 		holder = (ViewHolder) convertView.getTag();

@@ -33,7 +33,8 @@ public class FreeRecipesActivity extends BaseActivity implements OnItemClickList
 	private RecipeListAdapter mRecipeAdapter;
 	private ArrayList<RecipeBean> mRecipeList;
 	private ProgressDialog dialog;
-	private String mCatagoryId; 
+	private String mCatagoryId;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub

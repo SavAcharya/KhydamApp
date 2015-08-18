@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
@@ -32,7 +33,7 @@ public class CourseDetailsAdapter extends BaseExpandableListAdapter {
     private boolean isMyCourse;
     private ImageLoader imageLoader= ImageLoader.getInstance();
     private DisplayImageOptions options;
-private Button mSelectRecipe;
+private RelativeLayout mSelectRecipe;
 
     public CourseDetailsAdapter(Context context, ArrayList<CoursesBean.CourseDetails> days,boolean courseType) {
         this.context = context;
@@ -69,7 +70,7 @@ final int group=groupPosition;
         @NotNull TextView txtRecipeDescription=(TextView) convertView.findViewById(R.id.txt_recipeDesc);
         txtRecipeName.setText(recipes.getRecipeName().toString());
         txtRecipeDescription.setText(recipes.getRecipeDetails());
-        mSelectRecipe= (Button) convertView.findViewById(R.id.btn_selectRecipe);
+        mSelectRecipe= (RelativeLayout) convertView.findViewById(R.id.layout_recipeParent);
         mSelectRecipe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
