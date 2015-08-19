@@ -50,12 +50,7 @@ public class OTPActivity extends BaseActivity implements OnClickListener{
 
 		initViews();
 
-      mOTPBroadcastReceiver = new BroadcastReceiver() {
-            @Override
-            public void onReceive(Context context, Intent intent) {
-                OTPActivity.this.receivedBroadcast(intent);
-            }
-        };
+
 	}
 
 

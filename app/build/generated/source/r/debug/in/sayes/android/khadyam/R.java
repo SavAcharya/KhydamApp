@@ -1797,7 +1797,6 @@ containing a value of this type.
         public static final int btn_recipeIngridents=0x7f07008b;
         public static final int btn_recipeSteps=0x7f07008c;
         public static final int btn_recipeTips=0x7f07008d;
-        public static final int btn_selectRecipe=0x7f0700b0;
         public static final int btn_signup_login=0x7f07009e;
         public static final int btn_signup_send=0x7f07007d;
         public static final int btn_viewCourseSchedule=0x7f07005f;
@@ -1843,7 +1842,7 @@ containing a value of this type.
         public static final int img_home_Instractor=0x7f070074;
         public static final int img_icon=0x7f07006e;
         public static final int img_monday=0x7f0700b9;
-        public static final int img_recipeImg=0x7f0700ae;
+        public static final int img_recipeImg=0x7f0700af;
         public static final int img_saturday=0x7f0700be;
         public static final int img_schedule_courseImage=0x7f070097;
         public static final int img_sunday=0x7f0700b8;
@@ -1853,6 +1852,7 @@ containing a value of this type.
         public static final int info=0x7f0700cf;
         public static final int iv_icon=0x7f0700c2;
         public static final int layour_loging_goToSignup=0x7f07007b;
+        public static final int layout_recipeParent=0x7f0700ae;
         public static final int linLayout_CourseDurationFees=0x7f07005c;
         public static final int linLayout_recipeTime=0x7f070087;
         public static final int line1=0x7f0700c9;
@@ -1951,7 +1951,7 @@ containing a value of this type.
         public static final int txt_recipeDetails_recipDescription=0x7f070055;
         public static final int txt_recipeDetails_recipeFees=0x7f070086;
         public static final int txt_recipeDetails_recipeName=0x7f070052;
-        public static final int txt_recipeName=0x7f0700af;
+        public static final int txt_recipeName=0x7f0700b0;
         public static final int txt_recipe_adapter_row_stepDetails=0x7f0700a2;
         public static final int txt_recipe_adapter_row_stepTitle=0x7f0700a1;
         public static final int txt_schedule_availble_seats=0x7f0700b7;

@@ -2,17 +2,17 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/pre-dexed/release/classes-9628be15a53b9a826053b62cf995758a803e78e4.jar"
-        jar="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0"/>
-    <item
         dex="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/pre-dexed/release/support-annotations-22.2.0-b7297025bcd61c038245323009a74c65f7c9518b.jar"
         jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1"/>
+    <item
+        dex="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/pre-dexed/release/classes-9628be15a53b9a826053b62cf995758a803e78e4.jar"
+        jar="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0"/>
     <item
         dex="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/pre-dexed/release/classes-9bd8a3794641bab4ccafb6dc43a91212dbee2f6d.jar"
         jar="/Users/sourav/Documents/MyProjects/Nitin/CookingApp/Apps/Khydams/KhydamApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
